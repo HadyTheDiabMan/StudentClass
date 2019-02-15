@@ -11,11 +11,11 @@ private String phoneNumber;
 private int gradYear;
 
 
-public Student()
+public Student(int gradeLevel, String name1, int gradyear)
 {
-	gradeLevel=9;
-	gradYear=2022;
-	name="Hady";
+	gradeLevel=gradelevel;
+	gradYear=gradyear;
+	name=name1;
 }
 
 public String getName()
